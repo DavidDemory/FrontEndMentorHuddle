@@ -1,0 +1,17 @@
+.header {
+    position: relative;
+    padding-top: 2.375rem;
+    padding-left: 2.375rem;
+    @include breakpoint-up(medium) {
+        padding-top: 3.75rem;
+        padding-left: 5rem;
+    }
+    &__logo {
+        img {
+            width: 7.5rem;
+            @include breakpoint-up(medium) {
+                width: 12.5rem;
+            }
+        }
+    }
+}
